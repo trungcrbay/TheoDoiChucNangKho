@@ -1,10 +1,11 @@
-const IndividualPosting = () => {
+
+const IndividualAccountPosting = () => {
 
     return(
         <div>
-            demo page
+            demo Individual Account Posting page
         </div>
     )
 }
 
-export default IndividualPosting;
+export default IndividualAccountPosting;

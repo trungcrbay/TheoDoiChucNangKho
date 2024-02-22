@@ -4,7 +4,7 @@ const AddSlideBanner  = () => {
     
     return(
         <div>
-            AddSlideBanner Page
+            Add Slide Banner Page
         </div>
     )
 }

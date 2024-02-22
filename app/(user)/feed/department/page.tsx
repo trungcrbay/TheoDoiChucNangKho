@@ -1,11 +1,11 @@
 
-const Department = () => {
+const DepartmentFeed = () => {
 
     return(
         <div>
-            department
+            department feed page
         </div>
     )
 }
 
-export default Department;
+export default DepartmentFeed;

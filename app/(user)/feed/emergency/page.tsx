@@ -1,9 +1,9 @@
 
-const Emergency = () => {
+const EmergencyCustomersFeed = () => {
 
-    return(
+    return (
         <div>123</div>
     )
 }
 
-export default Emergency;
+export default EmergencyCustomersFeed;

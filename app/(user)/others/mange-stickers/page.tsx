@@ -4,7 +4,7 @@ const ManageStickers  = () => {
     
     return(
         <div>
-            ManageStickers Page
+            Manage Stickers Page
         </div>
     )
 }

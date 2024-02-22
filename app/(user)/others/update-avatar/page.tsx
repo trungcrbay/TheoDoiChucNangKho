@@ -4,7 +4,7 @@ const WarningUpdateAvatar  = () => {
     
     return(
         <div>
-            WarningUpdateAvatar Page
+            Warning Update Avatar Page
         </div>
     )
 }

@@ -1,6 +1,6 @@
 
 
-const Sold  = () => {
+const SoldFeed  = () => {
     
     return(
         <div>
@@ -9,4 +9,4 @@ const Sold  = () => {
     )
 }
 
-export default Sold;
+export default SoldFeed;
