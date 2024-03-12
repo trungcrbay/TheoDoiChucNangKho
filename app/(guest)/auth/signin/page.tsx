@@ -1,8 +1,10 @@
+import Login from "@/components/auth/sigin";
+
 const SignIn = () => {
 
     return(
         <div>
-            Sign in Page
+            <Login />
         </div>
     )
 }

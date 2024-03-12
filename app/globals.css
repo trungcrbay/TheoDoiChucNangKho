@@ -2,4 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-  
+#srollbar-sidebar::-webkit-scrollbar-track {
+    border-radius     : 10px;
+}
+
+#srollbar-sidebar::-webkit-scrollbar {
+    width           : 7px;
+   
+}
+
+#srollbar-sidebar::-webkit-scrollbar-thumb {
+    border-radius     : 10px;
+    background-color  : rgba(0,0,0,0.2);
+}
