@@ -1,8 +1,9 @@
 
 'use client'
-import Button from '@/component/atoms/Button';
-import EmptyImage from '@/component/atoms/Empty Image';
+import Button from '@/core/atoms/Button';
+import EmptyImage from '@/core/atoms/Empty Image';
 import useFetch from '@/hooks/fetch';
+import useSize from '@/hooks/resize';
 import React, { useState, useCallback } from 'react'
 
 /**
@@ -150,7 +151,11 @@ console.log(course.getCourseSubjects())
 const storeSet = new Set();
 
 function Counter() {
-    const [isOpen, setOpen] = React.useState(false);
+
+    const windowsize = useSize();
+
+    console.log("width: ",windowsize[0])
+    console.log("height: ",windowsize[1])
 
     const handleOpen = () => {
         console.log('button lcicked');
@@ -184,7 +189,7 @@ function Counter() {
             <div>Count other: {countOther}</div>
             <button onClick={increaseOther} className='bg-red-300 p-3'>+</button>
             <button onClick={decreaseOther} className='bg-yellow-300 p-3'>-</button>
-            
+
             <Button
                 onClick={handleOpen}
                 className={'bg-red-300 hover:bg-yellow-300'}
@@ -196,10 +201,10 @@ function Counter() {
                 Open modal
             </Button>
 
-            <EmptyImage 
-            width={120}
-            height={200}
-            className=''
+            <EmptyImage
+                width={120}
+                height={200}
+                className=''
             />
 
         </>
